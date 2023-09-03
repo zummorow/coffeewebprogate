@@ -1,0 +1,181 @@
+/* Navigasi Bar */
+.navbar{
+    border-radius: 30px 30px 0px 0px;
+    background: #0F8B8D;
+
+    width: 100%;
+    height: 145px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.headermenu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 138px;
+    padding-right: 138px;
+    
+}
+
+.headermenu ul {
+    list-style: none;
+    padding: 0;
+
+    color: #F9FBFE;
+    
+    font-family: poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headermenu ul li {
+    display: inline;
+    margin-right: 30px; /* Untuk memberi jarak antara elemen-elemen daftar */
+}
+
+/* Menu page */
+.menupage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.menupage h1 {
+    color: #0F8B8D;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menupage h3{
+    color: #143642;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    
+}
+
+.galleryitem{
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 199px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.containerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 21px;
+    gap: 5px;
+}
+
+
+
+.gallerybackground{
+    background-image: url(/assets/Coffee\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 20px;
+
+    width: 216px;
+    height: 216px;
+    flex-shrink: 0;
+}
+
+.judulgalery{
+    color: #F9FBFE;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hargagalery{
+    color: #F9FBFE;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+/* Footer Section */
+.footer{
+    width: 100%;
+    height: 460px;
+
+    border-radius: 30px;
+    background: #143642;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 139px;
+    padding-top: 80px;
+    
+}
+
+.bottnav{
+    border-radius: 30px 30px 0px 0px;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bottmenu{
+    display: flex;
+
+}
+
+.bottmenu ul{
+    list-style: none;
+}
+
+.judulmenu{
+    color: #EC9A29;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.listmenu{
+        color: #F9FBFE;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,294 @@
+.navbar {
+    background-image: url(./assets/Coffe\ Header.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 20px;
+}
+.mask{
+    height: 700px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    width: 100%;
+    padding-top: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu img {
+    width: 335px;
+    height: 67px;
+}
+.menu ul li{
+    list-style: none;
+    color: #F9FBFE;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    
+    display: inline;
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.titlepage{
+    width: 499px;
+    height: 221px;
+    margin-top: 149px;
+}
+.judulpage{
+    color: #F9FBFE;
+    text-align: center;
+    font-family: Lato;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.subjudulpage{
+    color: #F9FBFE;
+    text-align: center;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.maincontent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whoarewe{
+    width: 925px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gambarwhoweare {
+    background-image: url(assets/Who\ are\ we.jpg);
+    width: 335px;
+    height: 460px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+.textcontent{
+    display: flex;
+    flex-direction: column;
+    max-width: 452px;
+}
+.textjudulcontent{
+    color: #0F8B8D;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+.textdescripsi{
+    color: #143642;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+hr{
+    width: 278px;
+    height: 5px;
+    background: #EC9A29;
+    margin: 20px 0px;
+}
+.productshowcase{
+    width: 925px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gambarshowcase{
+    background-image: url(assets/Our\ products.jpg);
+    width: 335px;
+    height: 335px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+.hangout{
+    width: 925px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gambarhangout{
+    background-image: url(assets/Hang\ out\ with\ us.jpg);
+    width: 453px;
+    height: 453px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    margin-right: 138px;
+}
+.textcontenthangout{
+    display: flex;
+    flex-direction: column;
+    max-width: 398px;
+}
+
+/* Find us section */
+.findus{
+    width: 925px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.findustext{
+    color: #0F8B8D;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.gambar1, .gambar2, .gambar3, .gambar4, .gambar5, .gambar6{
+    width: 237px;
+    height: 237px;
+    background-repeat: no-repeat;
+    background-color: lightgray 50%;
+    background-size: contain;
+}
+.imagerow1, .imagerow2{
+    display: flex;
+    flex-direction: row;
+    gap: 108px;
+    margin-top: 50px;
+}
+.gambar1{
+    background-image: url(/assets/Feed\ 1.png);
+}
+.gambar2{
+    background-image: url(/assets/Feed\ 2.png);
+}
+.gambar3{
+    background-image: url(/assets/Feed\ 3.png);
+}
+.gambar4{
+    background-image: url(/assets/Feed\ 4.png);
+}
+.gambar5{
+    background-image: url(/assets/Feed\ 5.png);
+}
+.gambar6{
+    background-image: url(/assets/Feed\ 6.png);
+}
+
+/* Ask Us Sections */
+.askus{
+    width: 925px;
+    
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.askus h3{
+    color: #0F8B8D;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.askus p{
+    color: #143642;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.input{
+    width: 335px;
+    height: 70px;
+    border-radius: 55px;
+    background: #A8201A;
+}
+/* Footer Section */
+.footer{
+    width: 100%;
+    height: 460px;
+
+    border-radius: 30px;
+    background: #143642;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 139px;
+    padding-top: 80px;
+    
+}
+
+.bottnav{
+    border-radius: 30px 30px 0px 0px;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bottmenu{
+    display: flex;
+    gap: 100px;
+
+}
+
+.bottmenu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.bottmenu li{
+    margin-bottom: 20px;
+}
+.judulmenu{
+    color: #EC9A29;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.listmenu{
+    color: #F9FBFE;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

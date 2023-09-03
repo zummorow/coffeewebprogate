@@ -1,0 +1,85 @@
+/* mobile view */
+@media all and (max-width: 670px){
+    /* Header */
+    .menu{
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .mask{
+        height: 478px;
+    }
+    .menu img{
+        width: 135px;
+        height: 27px;
+        
+    }
+    .menu ul li{
+        font-size: 14px;
+        padding: 0px;
+    }
+    .menu ul{
+        display: flex;
+        padding: 0px;
+        margin: 20px 0px;
+        justify-content: center;
+    }
+    .titlepage{
+        width: 100%;
+        margin-top: 98px;
+    }
+    .judulpage{
+        font-size: 36px;
+    }
+    .subjudulpage{
+        font-size: 16px;
+    }
+
+    /* main section */
+    
+    /* section 1 */
+    .whoarewe{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .whoarewe hr{
+        width: 118px;
+        height: 3px;
+    }
+    .gambarwhoweare{
+        width: 155px;
+        height: 212.836px;
+        margin-bottom: 20.16px;
+    }
+    .whoarewe .textcontent{
+        margin-left: 41px;
+        margin-right: 70px;
+    }
+    .textjudulcontent{
+        font-size: 20px;
+    }
+    .textdescripsi{
+        font-size: 12px;
+    }
+    /* section 2 Product Showcase */
+    .productshowcase{
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .gambarshowcase{
+        width: 155px;
+        height: 155px;
+        margin-bottom: 20px;
+    }
+    .productshowcase .textcontent{
+        margin-left: 41px;
+        margin-right: 46px;
+    }
+    .productshowcase hr{
+        width: 166px;
+        height: 3px;
+    }
+}
