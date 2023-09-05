@@ -1,0 +1,115 @@
+@media all and (max-width: 670px){
+    /* Header */
+    .navbar{
+        height: auto;
+    }
+    .headermenu{
+        padding: 0;
+        flex-direction: column;
+        align-items: self-start;
+        width: 100%;
+    }
+    .imglogoheader{
+        width: 135px;
+        height: 27px;
+        padding-left: 40px;
+        margin-top: 20px;
+        
+    }
+    .headermenu ul{
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        width: 100%;
+        justify-content: center;
+    }
+    .headermenu ul li{
+        margin-right: 0;
+    }
+    /* main section */
+    .productimage .productimage img{
+        width: 279px;
+        max-width: 100%;
+    }
+    .product{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
+    .productname{
+        width: 100%;
+        margin-left: 41px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .note{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 30px;
+    }
+    .article{
+        width: 100%;
+        margin-left: 41px;
+        margin-right: 35px;
+        padding-left: 41px;
+    }
+    .description{
+        font-size: 20px;
+    }
+    hr{
+        width: 280px;
+    }
+    p {
+        font-size: 12px;
+    }
+    button{
+        width: 135px;
+        height: 28px;
+    }
+    span{
+        font-size: 10px;
+    }
+    /* footer */
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        padding-top: 20px;
+        justify-content: flex-start;
+    }
+    .imglogofooter{
+        width: 143px;
+        padding: 0px;
+    }
+    .bottnav{
+        width:fit-content;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 40px 30px 40px;
+        border-radius: 0%;
+        gap: 55px;
+    }
+    .emailfavicon{
+        width: 25px;
+        margin-right: 17px;
+    }
+    .tlpfavicon{
+        width: 20px;
+    }
+    .judulmenu{
+        font-size: 14px;
+        
+    }
+    .listmenu{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .bottmenu{
+        flex-direction: column;
+        gap: 0;
+        margin-left: 40px;
+    }
+}

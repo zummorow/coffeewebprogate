@@ -18,9 +18,11 @@
     justify-content: space-between;
     padding-left: 138px;
     padding-right: 138px;
-    
 }
-
+.imglogoheader{
+    width: 335px;
+    height: 67px;
+}
 .headermenu ul {
     list-style: none;
     padding: 0;
@@ -37,6 +39,10 @@
 .headermenu ul li {
     display: inline;
     margin-right: 30px; /* Untuk memberi jarak antara elemen-elemen daftar */
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Menu page */
@@ -126,6 +132,11 @@
     line-height: normal;
     
 }
+
+.imggallery{
+    width: 186px;
+    height: 139.632px;
+}
 /* Footer Section */
 .footer{
     width: 100%;
@@ -138,7 +149,6 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-
     gap: 139px;
     padding-top: 80px;
     
@@ -146,23 +156,37 @@
 
 .bottnav{
     border-radius: 30px 30px 0px 0px;
-
-
     display: flex;
     align-items: center;
     flex-direction: column;
     align-items: flex-start;
 }
 
+.imglogofooter{
+    padding-bottom: 31px;
+    
+}
+.emailfavicon{
+    width: 40px;
+}
+.tlpfavicon{
+    width: 32px;
+}
+
 .bottmenu{
     display: flex;
+    gap: 100px;
 
 }
 
 .bottmenu ul{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
-
+.bottmenu li{
+    margin-bottom: 20px;
+}
 .judulmenu{
     color: #EC9A29;
     font-family: Lato;
@@ -172,7 +196,7 @@
     line-height: normal;
 }
 .listmenu{
-        color: #F9FBFE;
+    color: #F9FBFE;
     font-family: Lato;
     font-size: 24px;
     font-style: normal;

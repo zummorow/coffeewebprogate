@@ -82,4 +82,109 @@
         width: 166px;
         height: 3px;
     }
+    /* button */
+    .input{
+        width: 135px;
+        height: 28px;
+    }
+    .input span{
+        color: #F9FBFE;
+        font-size: 10px;
+    }
+
+    /* section 3 Hangout */
+    .hangout{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
+    }
+    .gambarhangout{
+        width: 155px;
+        height: 155px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        
+    }
+    .hangout hr{
+        width: 159px;
+        height: 3px;
+    }
+    .textcontenthangout{
+        margin: 0px 41px 0px 41px;
+    }
+    /* find up section */
+    .findus{
+        width: 100%;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .gambar1, .gambar2, .gambar3, .gambar4, .gambar5, .gambar6{
+        width: 71.33px;
+        height: 71.33px;
+    }
+    .imagerow1, .imagerow2{
+        display: flex;
+        flex-direction: row;
+        gap: 32.5px;
+        margin-top: 15.5px;
+    }
+    .findustext{
+        font-size: 20px;
+    }
+    /* ask us section */
+    .askus{
+        width: 100%;
+    }
+    .askus h3{
+        font-size: 20px;
+    }
+    .askus p{
+        font-size: 12px;
+    }
+    .askus span{
+        font-size: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        padding-top: 20px;
+        justify-content: flex-start;
+    }
+    .imglogofooter{
+        width: 143px;
+        padding: 0px;
+    }
+    .bottnav{
+        width:fit-content;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 40px 30px 40px;
+        border-radius: 0%;
+        gap: 55px;
+    }
+    .emailfavicon{
+        width: 25px;
+        margin-right: 17px;
+    }
+    .tlpfavicon{
+        width: 20px;
+    }
+    .judulmenu{
+        font-size: 14px;
+        
+    }
+    .listmenu{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .bottmenu{
+        flex-direction: column;
+        gap: 0;
+        margin-left: 40px;
+    }
 }
