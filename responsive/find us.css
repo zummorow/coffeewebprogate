@@ -1,0 +1,117 @@
+@media all and (max-width: 670px){
+    /* Header */
+    .navbar{
+        height: auto;
+    }
+    .headermenu{
+        padding: 0;
+        flex-direction: column;
+        align-items: self-start;
+        width: 100%;
+    }
+    .imglogoheader{
+        width: 135px;
+        height: 27px;
+        padding-left: 40px;
+        margin-top: 20px;
+        
+    }
+    .headermenu ul{
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        width: 100%;
+        justify-content: center;
+    }
+    .headermenu ul li{
+        margin-right: 0;
+    }
+    /* main */
+    main{
+        margin: 40px 0px;
+    }
+    .containermain{
+        max-width: 360px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .maps{
+        width: 284.87px;
+        height: 284.058px;
+        margin-bottom: 36.35px;
+    }
+    .judulpage{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .block71{
+        width: 280px;
+        padding: 20px 26px 20px 24px;
+    }
+    .ikea{
+        width: 280px;
+        padding: 20px 24px 20px 24px;
+
+    }
+    .wooland{
+        width: 280px;
+        padding: 20px 24px;
+    }
+    .maps img{
+        
+        width: 284.87px;
+        height: 284.058px;
+    }
+    article{
+        margin-right: 0;
+    }
+    /* Footer */
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        padding-top: 20px;
+        justify-content: flex-start;
+    }
+    .imglogofooter{
+        width: 143px;
+        padding: 0px;
+    }
+    .bottnav{
+        width:fit-content;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 40px 30px 40px;
+        border-radius: 0%;
+        gap: 55px;
+    }
+    .emailfavicon{
+        width: 25px;
+        margin-right: 17px;
+    }
+    .tlpfavicon{
+        width: 20px;
+    }
+    .judulmenu{
+        font-size: 14px;
+        
+    }
+    .listmenu{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .bottmenu{
+        flex-direction: column;
+        gap: 0;
+        margin-left: 40px;
+    }
+}

@@ -1,5 +1,5 @@
 /* header section */
-header{
+.navbar{
     border-radius: 30px 30px 0px 0px;
     background: #0F8B8D;
 
@@ -9,6 +9,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .headermenu{
     width: 100%;
@@ -17,9 +18,11 @@ header{
     justify-content: space-between;
     padding-left: 138px;
     padding-right: 138px;
-    
 }
-
+.imglogoheader{
+    width: 335px;
+    height: 67px;
+}
 .headermenu ul {
     list-style: none;
     padding: 0;
@@ -37,6 +40,10 @@ header{
     display: inline;
     margin-right: 30px; /* Untuk memberi jarak antara elemen-elemen daftar */
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /* main content */
 main{
     margin: 100px 0px;
@@ -47,10 +54,12 @@ main{
 }
 article{
     margin-right: 100px;
+    display: flex;
+    flex-direction: column;
 }
 .containermain{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .judulpage{
     color: #0F8B8D;
@@ -62,7 +71,8 @@ article{
 }
 .content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
 }
 .description{
     color: #143642;
@@ -122,7 +132,7 @@ p{
     line-height: normal;
 }
 /* footer section */
-footer{
+.footer{
     width: 100%;
     height: 460px;
 
@@ -133,7 +143,6 @@ footer{
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-
     gap: 139px;
     padding-top: 80px;
     
@@ -141,12 +150,21 @@ footer{
 
 .bottnav{
     border-radius: 30px 30px 0px 0px;
-
-
     display: flex;
     align-items: center;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.imglogofooter{
+    padding-bottom: 31px;
+    
+}
+.emailfavicon{
+    width: 40px;
+}
+.tlpfavicon{
+    width: 32px;
 }
 
 .bottmenu{
