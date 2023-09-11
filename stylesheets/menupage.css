@@ -101,7 +101,7 @@ a{
 
 
 .gallerybackground{
-    background-image: url(../assets/Coffeebackground.png);
+    background-image: url("../assets/Coffeebackground.png");
     background-repeat: no-repeat;
     background-size: cover;
 
